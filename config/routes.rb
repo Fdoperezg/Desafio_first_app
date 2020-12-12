@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'pages/one'
   get 'pages/two'
+  get 'pages/three'
 
   #Con la instrucción siguiente se define la página de inicio
   root 'pages#one'
